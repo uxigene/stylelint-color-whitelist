@@ -13,7 +13,7 @@ module.exports = input => {
                     r : parseInt(grougs[1], 10),
                     g : parseInt(grougs[2], 10),
                     b : parseInt(grougs[3], 10),
-                    a : parseFloat(grougs[4] || 0)
+                    a : parseFloat(grougs[4] || 1)
                 }
             }
         });

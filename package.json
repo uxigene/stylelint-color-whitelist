@@ -4,7 +4,7 @@
   "description": "Plugin for stylelint to validate color usage defined in whitelist.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config jest.config.js"
   },
   "keywords": [
     "stylelint-plugin",
@@ -21,6 +21,10 @@
   "bugs": "https://github.com/MarinescuEvghenii/stylelint-colors-whitelist/issues",
   "license": "MIT",
   "dependencies": {
-    "color": "^3.1.1"
+    "color": "^3.1.1",
+    "stylelint": "^10.0.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
