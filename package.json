@@ -1,13 +1,24 @@
 {
   "name": "stylelint-color-whitelist",
   "version": "1.0.0",
-  "description": "https://www.npmjs.com/package/delay",
+  "description": "Plugin for stylelint to validate color usage defined in whitelist.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "stylelint-plugin",
+    "stylelint",
+    "stylelint-color-whitelist",
+    "color",
+    "whitelist"
+  ],
+  "author": "Eugeniu Marinescu <marinescu.evghenii@gmail.com> (https://marinescu.dev/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarinescuEvghenii/stylelint-colors-whitelist"
+  },
+  "license": "MIT",
   "dependencies": {
     "color": "^3.1.1"
   }
