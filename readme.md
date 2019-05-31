@@ -14,8 +14,8 @@ yarn add stylelint-colors-whitelist
 ```
 
 ## Usage
-- Create the .stylelintrc file (or open the existing one), add ```stylelint-color-whitelist``` to the plugins array.
-- Add ```colors/whitelist``` rule to rules section.
+- Add ```stylelint-color-whitelist``` to the plugins array.
+- Add ```colors/whitelist``` rule config to the rules section.
 
 ```
 {
@@ -28,6 +28,7 @@ yarn add stylelint-colors-whitelist
   }
 }
 ```
+Refer to [stylelint docs](https://stylelint.io/user-guide/) for the detailed info.
 
 ## Supported format
 |Format | Example                                           | Support | Comments               |
