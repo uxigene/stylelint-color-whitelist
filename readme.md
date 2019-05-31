@@ -38,7 +38,7 @@ Refer to [stylelint docs](https://stylelint.io/user-guide/) for the detailed inf
 | RGBA  | ```rgba(255, 255, 255, 0.5)```                    | YES     | Ignores opacity        |
 | HSL   | ```hsl(0, 0%, 100%)```                            | NO      | Will be added          |
 | HSLA  | ```hsl(0, 0%, 100%, 1)```                         | NO      | Will be added          |
-| Named | ```red``` ```green```                             | NO      | Won't be added         |
+| Named | ```red``` ```green```                             | NO      |                        |
 
 ## License
 stylelint-colors-whitelist is [MIT licensed](https://github.com/MarinescuEvghenii/stylelint-colors-whitelist/blob/master/licence.md).

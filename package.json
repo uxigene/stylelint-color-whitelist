@@ -1,6 +1,6 @@
 {
   "name": "stylelint-color-whitelist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for stylelint to validate color usage defined in whitelist.",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,9 @@
   "author": "Eugeniu Marinescu <marinescu.evghenii@gmail.com> (https://marinescu.dev/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarinescuEvghenii/stylelint-colors-whitelist"
+    "url": "https://github.com/MarinescuEvghenii/stylelint-colors-whitelist.git"
   },
+  "bugs": "https://github.com/MarinescuEvghenii/stylelint-colors-whitelist/issues",
   "license": "MIT",
   "dependencies": {
     "color": "^3.1.1"
