@@ -29,12 +29,12 @@ yarn add stylelint-colors-whitelist
 }
 ```
 
-## Support format
+## Supported format
 |Format | Example                                           | Support | Comments               |
 |-------|---------------------------------------------------|---------|------------------------|
 | HEX   | ```#fff``` ```#FFF``` ```#ffffff``` ```#FFFFFF``` | YES     |                        |
 | RGB   | ```rgb(255, 255, 255)```                          | YES     |                        |
-| RGBA  | ```rgba(255, 255, 255, 0,5)```                    | YES     | Ignores opacity        |
+| RGBA  | ```rgba(255, 255, 255, 0.5)```                    | YES     | Ignores opacity        |
 | HSL   | ```hsl(0, 0%, 100%)```                            | NO      | Will be added          |
 | HSLA  | ```hsl(0, 0%, 100%, 1)```                         | NO      | Will be added          |
 | Named | ```red``` ```green```                             | NO      | Won't be added         |
