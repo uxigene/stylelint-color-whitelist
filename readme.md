@@ -30,7 +30,7 @@ yarn add stylelint-colors-whitelist
 ```
 Refer to [stylelint docs](https://stylelint.io/user-guide/) for the detailed info.
 
-## Supported format
+## Supported formats
 |Format | Example                                           | Support | Comments               |
 |-------|---------------------------------------------------|---------|------------------------|
 | HEX   | ```#fff``` ```#FFF``` ```#ffffff``` ```#FFFFFF``` | YES     |                        |
