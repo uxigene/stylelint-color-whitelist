@@ -1,6 +1,6 @@
 {
   "extends": "stylelint-config-standard",
-  "plugins": ["../"],
+  "plugins": ["stylelint-color-whitelist"],
 
   "rules": {
     "color/whitelist": {
