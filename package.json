@@ -16,9 +16,9 @@
   "author": "Eugeniu Marinescu <marinescu.evghenii@gmail.com> (https://marinescu.dev/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarinescuEvghenii/stylelint-colors-whitelist.git"
+    "url": "https://github.com/MarinescuEvghenii/stylelint-color-whitelist.git"
   },
-  "bugs": "https://github.com/MarinescuEvghenii/stylelint-colors-whitelist/issues",
+  "bugs": "https://github.com/MarinescuEvghenii/stylelint-color-whitelist/issues",
   "license": "MIT",
   "dependencies": {
     "color": "^3.1.1",
