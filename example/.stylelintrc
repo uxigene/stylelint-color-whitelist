@@ -1,9 +1,9 @@
 {
   "extends": "stylelint-config-standard",
-  "plugins": ["stylelint-color-whitelist"],
+  "plugins": ["../"],
 
   "rules": {
-    "colors/whitelist": {
+    "color/whitelist": {
       "colors": ["#FFFFFF", "#dedede", "#000000", "#a60000", "#da0000"]
     }
   }
