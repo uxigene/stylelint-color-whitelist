@@ -16,7 +16,7 @@ yarn add stylelint-color-whitelist
 ## Usage
 Add ```stylelint-color-whitelist``` to the plugins array.
 Add ```color/whitelist``` rule config to the rules section.
-Note: Configuration array can recive only hex values.
+Note: Configuration array can get only hex values.
 ```
 {
   "plugins": ["stylelint-color-whitelist"],
