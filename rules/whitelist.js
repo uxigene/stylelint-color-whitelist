@@ -26,15 +26,15 @@ module.exports = ruleName => options => (root, result) => {
 
                 switch (color.type) {
                     case 'hex':
-                        hex = convert(color.value.slice(0,7)).hex().toLowerCase();
+                        hex = convert(color.value.slice(0,7)).hex();
                         break;
 
                     case 'rgba':
-                        hex = convert(`rgb(${color.rgba.r}, ${color.rgba.g}, ${color.rgba.b})`).hex().toLowerCase();
+                        hex = convert(`rgb(${color.rgba.r}, ${color.rgba.g}, ${color.rgba.b})`).hex();
                         break;
 
                     case 'hsla':
-                        hex = convert(`hsl(${color.hsla.h}, ${color.hsla.s}, ${color.hsla.l})`).hex().toLowerCase();
+                        hex = convert(`hsl(${color.hsla.h}, ${color.hsla.s}, ${color.hsla.l})`).hex();
                         break;
                 }
 
