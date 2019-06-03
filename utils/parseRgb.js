@@ -4,16 +4,16 @@ module.exports = input => {
 
     if(colors) {
         return colors.map(color => {
-            const grougs = regex.exec(input);
+            const groups = regex.exec(input);
 
             return {
                 type  : 'rgba',
                 value : color,
                 rgba  : {
-                    r : parseInt(grougs[1], 10),
-                    g : parseInt(grougs[2], 10),
-                    b : parseInt(grougs[3], 10),
-                    a : parseFloat(grougs[4] || 1)
+                    r : parseInt(groups[1], 10),
+                    g : parseInt(groups[2], 10),
+                    b : parseInt(groups[3], 10),
+                    a : parseFloat(groups[4] || 1)
                 }
             }
         });

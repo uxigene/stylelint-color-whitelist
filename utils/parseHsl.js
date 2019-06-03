@@ -4,16 +4,16 @@ module.exports = input => {
 
     if(colors) {
         return colors.map(color => {
-            const grougs = regex.exec(input);
+            const groups = regex.exec(input);
 
             return {
                 type  : 'hsla',
                 value : color,
                 hsla  : {
-                    h : grougs[1],
-                    s : grougs[2],
-                    l : grougs[3],
-                    a : grougs[4] || 1
+                    h : groups[1],
+                    s : groups[2],
+                    l : groups[3],
+                    a : groups[4] || 1
                 }
             }
         });
